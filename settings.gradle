@@ -1,0 +1,3 @@
+include ':MaterialSpecialToast'
+include ':app'
+rootProject.name = "MateriaToastLibrary"
