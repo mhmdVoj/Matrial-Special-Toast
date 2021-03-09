@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/show_alert_toast"
-        android:text="Alert Toast"
+        android:text="Error Toast"
         android:textAllCaps="false"/>
 
     <com.google.android.material.button.MaterialButton
@@ -34,6 +34,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/show_info_toast"
         android:text="Info Toast"
+        android:textAllCaps="false"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_custom_toast"
+        android:text="Custom Toast"
+        android:textAllCaps="false"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_success_toast"
+        android:text="Success Toast"
         android:textAllCaps="false"/>
 
 </LinearLayout>
